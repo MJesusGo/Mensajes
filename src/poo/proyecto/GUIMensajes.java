@@ -84,7 +84,7 @@ public class GUIMensajes extends javax.swing.JFrame {
     private void btnIntegranteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnIntegranteActionPerformed
         // TODO add your handling code here:
         JOptionPane.showMessageDialog(null, "Hola, soy Kevin\nMi user es: "
-                + "KevinCndor", "Presentacion", 1);
+                + "KevinCndor ", "Presentacion", 1);
     }//GEN-LAST:event_btnIntegranteActionPerformed
 
     /**
