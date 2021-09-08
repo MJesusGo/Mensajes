@@ -43,6 +43,11 @@ public class GUIMensajes extends javax.swing.JFrame {
         });
 
         btnIntegrante.setText("Integrante");
+        btnIntegrante.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnIntegranteActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -75,6 +80,12 @@ public class GUIMensajes extends javax.swing.JFrame {
         JOptionPane.showMessageDialog(null, "Hola, soy Jesus\nMi user es: "
                 + "MJesusGo ", "Presentacion", 1);
     }//GEN-LAST:event_btnLiderActionPerformed
+
+    private void btnIntegranteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnIntegranteActionPerformed
+        // TODO add your handling code here:
+        JOptionPane.showMessageDialog(null, "Hola, soy Kevin\nMi user es: "
+                + "KevinCndor ", "Presentacion", 1);
+    }//GEN-LAST:event_btnIntegranteActionPerformed
 
     /**
      * @param args the command line arguments
