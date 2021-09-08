@@ -73,7 +73,7 @@ public class GUIMensajes extends javax.swing.JFrame {
     private void btnLiderActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnLiderActionPerformed
         // TODO add your handling code here:
         JOptionPane.showMessageDialog(null, "Hola, soy Jesus\nMi user es: "
-                + "MJesusGo ", "Presentacion Lider", 1);
+                + "MJesusGo ", "Presentacion", 1);
     }//GEN-LAST:event_btnLiderActionPerformed
 
     /**
