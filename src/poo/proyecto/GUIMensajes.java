@@ -5,6 +5,8 @@
  */
 package poo.proyecto;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author Usuario
@@ -34,6 +36,11 @@ public class GUIMensajes extends javax.swing.JFrame {
         setTitle("Design Preview [GUI]");
 
         btnLider.setText("Lider");
+        btnLider.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnLiderActionPerformed(evt);
+            }
+        });
 
         btnIntegrante.setText("Integrante");
 
@@ -62,6 +69,12 @@ public class GUIMensajes extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void btnLiderActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnLiderActionPerformed
+        // TODO add your handling code here:
+        JOptionPane.showMessageDialog(null, "Hola, soy Jesus\nMi user es: "
+                + "MJesusGo ", "Presentacion Lider", 1);
+    }//GEN-LAST:event_btnLiderActionPerformed
 
     /**
      * @param args the command line arguments
